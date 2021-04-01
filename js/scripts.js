@@ -1,8 +1,9 @@
-gsap.to(".box", {
+let tl = gsap.timeline({
     scrollTrigger: {
-        trigger: '.box',
-        start: "bottom center",
-        pin: true
-    },
-    x: 500
-})
+        trigger: '.dark',
+        start: "center bottom",
+    }
+});
+
+tl.from("img", {x: 200, opacity: 0, duration: 1.5})
+    .from(".content", {y: 300, opacity: 0, duration: 1}, "-=1")
