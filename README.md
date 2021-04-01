@@ -19,7 +19,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas focado no desenvolviment
 
 > Aplicado Responsivo :x:
 
-Animação usando a biblioteca ScrollTrigger do `GSAP`.
+Animação de scroll usando a biblioteca ScrollTrigger do `GSAP`.
 
 Para fazer o download da biblioteca sega os passos em [GSAP](https://greensock.com/docs/v3/Installation#download)
 
